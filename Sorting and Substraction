@@ -1,0 +1,8 @@
+## sort these numbers in descending order then substract from one another until we get only one number
+lst = [5, 7, 9, 2, 3, 8, 11, 5]
+lst.sort(reverse = True)
+print(lst)
+result = lst[0]
+for i in range(1, len(lst)):
+  result -= lst[i]
+print(result)
