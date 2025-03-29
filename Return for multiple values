@@ -1,0 +1,7 @@
+# Another example of using return for multiple values
+nums =[1, 5, 7, 3, 9, 22]
+def min_max(numbers):
+  return min(numbers), max(numbers)
+minimum = min(nums)
+maximum = max(nums)
+print(f'The minimum number is = {minimum} and the maximum number is = {maximum}')
