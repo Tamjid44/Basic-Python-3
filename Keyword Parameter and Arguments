@@ -1,0 +1,23 @@
+#-----Keyword Parameters and arguments Practice-----
+def send_email(to, subject, body):
+  print(f"To: {to}")
+  print(f"subject: {subject}")
+  print(f"body: {body}\n")
+send_email(to= "tamjid8128@gmail.com",
+           subject= "Conformation on your Apllied Job",
+           body= "Congratulations Mr. Tamjid to be on the selected candidate list."
+           )
+
+send_email(to= "tamjidrohan777333@gmail.com",
+           subject= "Welcome to *** Family",
+           body= "Hello Mr. Tamjid, we hereby welcome you to our company."
+           )
+send_email('tamjidroha11804114@gmail.com','Allocating your office','Hello Mr. Tamjid, as a probationary officer you get your own office space on third floor.')
+
+
+
+#---Function with different parameter value---
+def greet (name = "Tamjid"):
+ print(f'Hello, {name}')
+greet()
+greet(name = 'Ruthba')
