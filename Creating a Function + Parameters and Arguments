@@ -1,0 +1,4 @@
+#----Function Creation----
+def greet_user():
+  print("Hello, Tamjid! How's it going?")
+greet_user()
