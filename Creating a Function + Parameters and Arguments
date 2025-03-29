@@ -2,3 +2,18 @@
 def greet_user():
   print("Hello, Tamjid! How's it going?")
 greet_user()
+
+
+#------Parameters & Arguments----
+#Parameters are the value inside the function
+#Arguments are the calling of the function
+def rectangle_area(length, width):
+  #here length anf width are used inside the function name. they are paarmeters
+  rectangle_area = length*width
+  print(f'The area of the Rectangle is {rectangle_area}')
+#calling the function outside of function is argument
+rectangle_area(4,6)
+rectangle_area(43,21)
+
+
+
