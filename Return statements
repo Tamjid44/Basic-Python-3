@@ -1,0 +1,10 @@
+#---Practice with return statement---
+#---Flat 30% discount from 'ART'---
+print('The Price of the Product = ')
+
+def calculate_discounted_price(price, discount=0.1):
+  discounted_price = price - (price*discount)
+  return discounted_price
+original_price = int(input())
+final_price = calculate_discounted_price(price = original_price)  
+print(f'The original price was = {original_price}\nand the discounted price is = {final_price}')
