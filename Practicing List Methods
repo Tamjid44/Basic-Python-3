@@ -1,0 +1,24 @@
+#----Practicing List Methods----
+num = [5, 7, 9, 2, 3, 8, 11]
+#Append command adds number at the end
+#Also can create a list if given the elements
+num.append(5)
+print('New List with new element =',num)
+#Remove command only remove the first item
+num.remove(5)
+print('After the removing the first item =',num)
+#Inserting new number in place of another number
+num.insert(2,4)
+print('Inserting new number in place of another number =',num)
+#Pop removes the last number by default
+num.pop(3)
+print('After Pop the new list is =',num)
+#Sort command sorts item on ascending order
+num.sort()
+print('Sort command sorts item on ascending order =',num)
+#Reverse commands reverse the current list
+num.reverse()
+print('Reverse commands reverse the current list =',num)
+#Count command count how many times a certain item appears in the list
+times = num.count(4)
+print(times)
