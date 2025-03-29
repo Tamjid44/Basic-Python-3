@@ -1,0 +1,6 @@
+num = [1, 5, 6, 5, 1, 2, 3]
+duplicate_list = []
+for x in num:
+  if num.count(x) > 1 and x not in duplicate_list:
+       duplicate_list.append(x)
+print('list of duplicate numbers = ', duplicate_list)
