@@ -1,0 +1,7 @@
+#hour to minute converter
+print('Input hour')
+hour = float(input())
+def minute_conversion(hour):
+  minute_conversion = hour*60
+  return minute_conversion
+print(f'Inputed {hour} hour can be converted to = {minute_conversion(hour)} minutes')
