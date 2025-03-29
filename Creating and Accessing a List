@@ -1,0 +1,5 @@
+#Creating and Accessing a List
+goods_list = ['Sugar','Salt','Rice','Wheat']
+print('The first Item on the list is =',goods_list[0])
+goods_list[2] = 'Onion'
+print('New list of Items are =',goods_list)
