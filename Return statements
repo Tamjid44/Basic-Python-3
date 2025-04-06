@@ -2,7 +2,7 @@
 #---Flat 30% discount from 'ART'---
 print('The Price of the Product = ')
 
-def calculate_discounted_price(price, discount=0.1):
+def calculate_discounted_price(price, discount=0.3):
   discounted_price = price - (price*discount)
   return discounted_price
 original_price = int(input())
